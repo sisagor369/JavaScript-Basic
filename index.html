@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body style="background-color: rgb(29, 29, 102); color: white; margin: 50px;">
+    <h1>My first JavaScript Program</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML ='Bangladesh time <br>' + Date();">
+        click me to display Date and Time
+    </button>
+<p id="demo" style="color: rgb(50, 136, 141);"></p>
+
+
+<!-- JavaScript light  -->
+<button onclick="document.getElementById('light').src='images.jpg'">On</button>
+<img id="light"src="./pic_bulboff.gif" alt="">
+<button onclick="document.getElementById('light').src='pic_bulboff.gif'">Off</button>
+
+
+<p id="demo2">JavaScript can change html element</p>
+<button onclick="document.getElementById('demo2').style.color='red'";>click to change</button>
+<button onclick="document.getElementById('demo2').style.color=''";>click to remove font color</button>
+<button onclick="document.getElementById('demo2').style.visibility='hidden'";>click to hide</button>
+<button onclick="document.getElementById('demo2').style.visibility='visible'";>click to show</button>
+
+
+
+<!-- function  -->
+<p id="fun">This paragraph should be change </p>
+<button onclick="myfun();">click to change</button>
+
+
+<h4 id="valuee"></h4>
+    <script src="style.js"></script>
+</body>
+</html>
